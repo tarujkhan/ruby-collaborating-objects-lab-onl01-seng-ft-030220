@@ -8,8 +8,8 @@ class Song
     @@all << self 
   end 
   
-  def add_song(song)
-    @@songs << self 
+ def self.all 
+    @@all 
   end 
   
   
