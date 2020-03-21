@@ -20,7 +20,7 @@ end
   
   
   def self.new_by_filename(file)
-   artist, song 
+   artist, song = filename.split 
   end 
   
   
