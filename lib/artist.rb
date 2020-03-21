@@ -31,7 +31,7 @@ class Artist
 end 
 
 def self.find(name)
-  self.all.find {|artist| 
+  self.all.find {|artist| artist.name == name}
 
 def print_songs
   @songs.each do |song|
