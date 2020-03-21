@@ -30,7 +30,8 @@ class Artist
     self.all.find {|artist| artist.name == name} || self.name(name).save
 end 
 
-
+def self.find(name)
+  
 
 def print_songs
   @songs.each do |song|
