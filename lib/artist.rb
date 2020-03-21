@@ -9,7 +9,7 @@ class Artist
   end
   
   def songs
-    Song.all.select do |
+    Song.all.select do { |song| 
   end 
   
   def add_song(song)
