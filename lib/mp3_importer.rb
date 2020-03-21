@@ -7,7 +7,7 @@ class mp3_importer
   end
   
   def files 
-  
+ @files  
 end 
 
 def import 
