@@ -20,7 +20,7 @@ end
   
   
   def self.new_by_filename(file)
-   Artist, 
+   artist, song 
   end 
   
   
